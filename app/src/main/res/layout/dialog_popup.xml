@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:layout_margin="20dp"
+    android:background="@drawable/cell_dark"
+    android:clipToPadding="false"
+    >
+
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginRight="-20dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:textSize="30sp"
+        android:text="X"
+        />
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="2dp"
+        style="@style/Text"
+        android:hint="@string/label_first_name"
+        />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/first_name"
+        style="@style/Text"
+        android:hint="@string/label_last_name"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/first_name"
+        style="@style/Text"
+        android:hint="@string/label_office"
+        />
+
+    <TextView
+        android:id="@+id/office"
+        android:layout_below="@+id/title"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        style="@style/Text"
+        android:hint="@string/label_office"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/office"
+        style="@style/Text"
+        android:hint="@string/label_phone_number"
+        />
+
+    <ImageView
+        android:id="@+id/image_realtor"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/phone"
+        android:layout_centerHorizontal="true"
+        android:background="@color/cellBackgroundLight"
+        />
+
+</RelativeLayout>

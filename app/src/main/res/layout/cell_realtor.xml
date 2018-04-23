@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:padding="16dp"
+    android:background="@drawable/cell_light"
+    >
+
+    <TextView
+        android:id="@+id/label_first_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        style="@style/Label"
+        android:text="@string/label_first_name"
+        />
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_alignLeft="@id/label_first_name"
+        android:layout_below="@+id/label_first_name"
+        style="@style/Text"
+        android:text="Jane"
+        />
+
+    <TextView
+        android:id="@+id/label_last_name"
+        android:layout_toRightOf="@+id/label_first_name"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        style="@style/Label"
+        android:text="@string/label_last_name"
+        />
+
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_alignLeft="@id/label_last_name"
+        android:layout_below="@+id/label_first_name"
+        style="@style/Text"
+        android:text="Doe"
+        />
+
+    <TextView
+        android:id="@+id/label_phone_number"
+        android:layout_toRightOf="@+id/label_last_name"
+        android:layout_alignParentTop="true"
+        style="@style/Label"
+        android:text="@string/label_phone_number"
+        />
+
+    <TextView
+        android:id="@+id/phone_number"
+        android:layout_alignLeft="@id/label_phone_number"
+        android:layout_below="@+id/label_first_name"
+        style="@style/Text"
+        android:text="555-1234"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/label_mileage"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_above="@+id/text_mileage"-->
+        <!--style="@style/Label"-->
+        <!--android:text="@string/label_mileage"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/text_mileage"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--style="@style/Text"-->
+        <!--android:text="12,345"-->
+        <!--/>-->
+
+    <ImageView
+        android:id="@+id/image_realtor"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>

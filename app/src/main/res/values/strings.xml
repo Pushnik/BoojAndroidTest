@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Booj Android Test</string>
+
+    <string name="label_first_name">FIRST</string>
+    <string name="label_last_name">LAST</string>
+    <string name="label_phone_number">PHONE</string>
+    <string name="label_office">OFFICE</string>
+    <string name="label_title">TITLE</string>
+    <string name="label_other">OTHER</string>
+
+</resources>
